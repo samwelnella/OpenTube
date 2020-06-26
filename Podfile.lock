@@ -32,11 +32,11 @@ PODS:
   - R.swift (5.0.3):
     - R.swift.Library (~> 5.0.0)
   - R.swift.Library (5.0.1)
-  - Realm (3.14.1):
-    - Realm/Headers (= 3.14.1)
-  - Realm/Headers (3.14.1)
-  - RealmSwift (3.14.1):
-    - Realm (= 3.14.1)
+  - Realm (3.20.0):
+    - Realm/Headers (= 3.20.0)
+  - Realm/Headers (3.20.0)
+  - RealmSwift (3.20.0):
+    - Realm (= 3.20.0)
   - RxCocoa (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
   - RxOptional (3.6.2):
@@ -66,7 +66,7 @@ PODS:
   - Texture/Video (2.8):
     - Texture/Core
   - Then (2.4.0)
-  - XCDYouTubeKit (2.7.3)
+  - XCDYouTubeKit (2.14.0)
 
 DEPENDENCIES:
   - Alamofire
@@ -86,7 +86,7 @@ DEPENDENCIES:
   - XCDYouTubeKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Alamofire
     - FFCircularProgressView
     - MBProgressHUD
@@ -117,8 +117,8 @@ SPEC CHECKSUMS:
   PromiseKit: 94c6e781838c5bf4717677d0d882b0e7250c80fc
   R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
   R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
-  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
-  RealmSwift: a82eab9b04c3e1616082c7e17aa300740847769c
+  Realm: 8b2ca5bc6479a91f379b6b42b5922e396cd5ba5a
+  RealmSwift: 1949ef26a279e1845bd51d591b9103adfcd121df
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
   RxOptional: 80426a0ddbd092573e4c482d8cc13302078c4d5e
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
@@ -126,8 +126,8 @@ SPEC CHECKSUMS:
   SwiftyXML: 332cbc28563e25303879777375dfbbd746b5ad2a
   Texture: fc6e0157201f3a6e503d364c147b1872e365cef4
   Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
-  XCDYouTubeKit: 3f4fd3eb3ed494a46a8f007b91315eed6dd6df1f
+  XCDYouTubeKit: 04a2f89dca6c5c53d1786701a0e98dcb484be7a8
 
 PODFILE CHECKSUM: 922b6c9e9b86ec5f57c9d56448b31a314a45bb04
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.9.3
