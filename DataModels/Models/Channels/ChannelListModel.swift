@@ -140,7 +140,7 @@ public final class ChannelListModel: NSObject {
   }
 
   private func parseResponse(channelId: String, responseString: String) -> ChannelModel? {
-    guard let thumbnailString = responseString.substring(after: "<img class=\"appbar-nav-avatar\" src=\"", before: "\"") else { return nil }
+    guard let thumbnailString = responseString.substring(after: "\"avatar\":{\"thumbnails\":[{\"url\":\"", before: "\"") else { return nil }
     guard let thumbnailURL = URL(string: thumbnailString) else { return nil }
     guard let channelName = responseString.substring(after: "<meta property=\"og:title\" content=\"", before: "\"") else { return nil }
 
